@@ -8,4 +8,5 @@ export default defineConfig({
     host: true, // Generate a network address
     open: false, // Don't auto-open browser
   },
+  base: '/portfolio/', // GitHub Pages repo name
 })
