@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion, useMotionValue, useSpring, useTransform, AnimatePresence } from 'framer-motion';
-import { ArrowRight, ArrowDown, ExternalLink, Box, X } from 'lucide-react';
+import { ArrowDown, Box, X } from 'lucide-react';
 import FallingBlocksBackground from './components/FallingBlocksBackground';
 
 const WORK_ITEMS = [
